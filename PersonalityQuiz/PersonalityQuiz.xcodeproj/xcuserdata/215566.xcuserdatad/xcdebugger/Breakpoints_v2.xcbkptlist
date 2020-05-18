@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PersonalityQuiz/QuizViewController.swift"
+            timestampString = "572802430.672141"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "questions"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PersonalityQuiz.QuizViewController.questions.getter : Swift.Array&lt;PersonalityQuiz.Question&gt;"
+                  moduleName = "PersonalityQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/215566/Desktop/PersonalityQuiz/PersonalityQuiz/QuizViewController.swift"
+                  timestampString = "572800853.48847"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PersonalityQuiz.QuizViewController.questions.setter : Swift.Array&lt;PersonalityQuiz.Question&gt;"
+                  moduleName = "PersonalityQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/215566/Desktop/PersonalityQuiz/PersonalityQuiz/QuizViewController.swift"
+                  timestampString = "572800853.49165"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PersonalityQuiz.QuizViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; PersonalityQuiz.QuizViewController"
+                  moduleName = "PersonalityQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/215566/Desktop/PersonalityQuiz/PersonalityQuiz/QuizViewController.swift"
+                  timestampString = "572800853.493306"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "2421">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PersonalityQuiz.QuizViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;PersonalityQuiz.QuizViewController&gt;"
+                  moduleName = "PersonalityQuiz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/215566/Desktop/PersonalityQuiz/PersonalityQuiz/QuizViewController.swift"
+                  timestampString = "572800853.494879"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "2392">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

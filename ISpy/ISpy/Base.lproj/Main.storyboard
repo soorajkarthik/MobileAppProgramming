@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ISpy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X9a-Za-cri">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="architecture-eiffel-tower-famous-67941" translatesAutoresizingMaskIntoConstraints="NO" id="0pC-j0-Gkx">
+                                        <rect key="frame" x="0.0" y="0.0" width="2448" height="3264"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="0pC-j0-Gkx" firstAttribute="leading" secondItem="X9a-Za-cri" secondAttribute="leading" id="89k-DD-C2w"/>
+                                    <constraint firstAttribute="trailing" secondItem="0pC-j0-Gkx" secondAttribute="trailing" id="9VB-dh-17l"/>
+                                    <constraint firstItem="0pC-j0-Gkx" firstAttribute="top" secondItem="X9a-Za-cri" secondAttribute="top" id="bXm-Ve-3bB"/>
+                                    <constraint firstAttribute="bottom" secondItem="0pC-j0-Gkx" secondAttribute="bottom" id="w9i-uc-qKZ"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="X9a-Za-cri" secondAttribute="bottom" id="JvF-tg-xnU"/>
+                            <constraint firstItem="X9a-Za-cri" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="QGX-Se-c72"/>
+                            <constraint firstItem="X9a-Za-cri" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="fB0-4y-DY1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="X9a-Za-cri" secondAttribute="trailing" id="uWg-Sm-2lx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="0pC-j0-Gkx" id="cBr-IX-8s8"/>
+                        <outlet property="scrollView" destination="X9a-Za-cri" id="WTp-A7-3sR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="architecture-eiffel-tower-famous-67941" width="2448" height="3264"/>
+    </resources>
+</document>
